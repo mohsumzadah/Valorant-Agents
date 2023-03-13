@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 
+
 :root{
     --dark-gray-color: #222831;
     --gray-color: #393E46;
@@ -19,8 +20,9 @@
     width: 100%;
     background-color: var(--dark-gray-color);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+
 }
 
 .header-title {
@@ -29,7 +31,30 @@
     font-size: 4rem;
 }
 
+.search-container {
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.search-container input {
+    font-size: 30px;
+    border-radius: 20px;
+    width: 350px;
+    color: var(--dark-gray-color);
+    padding: 5px 10px;
+}
+
+.search-container input:focus{
+    outline: none;
+}
+
 .agents-container{
+    height: 100%;
+    min-height: 100vh;
     background-color: var(--gray-color);
     display: flex;
     justify-content: space-evenly;

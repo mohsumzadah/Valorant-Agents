@@ -4,10 +4,17 @@ import Main from "./Main"
 
 
 function App() {
+
+  const [searchValue, setSearchValue] = useState("");
+
+  function handleSearch(value){
+    setSearchValue(value);
+  }
+
   return (
     <div>
-      <Header />
-      <Main/>
+      <Header handleSearch={handleSearch}/>
+      <Main searchValue={searchValue}/>
     </div>
   );
 }
