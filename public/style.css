@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+:root{
+    --dark-gray-color: #222831;
+    --gray-color: #393E46;
+    --auqa-color: #00ADB5;
+    --white-color: #EEEEEE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Warp', cursive;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: var(--dark-gray-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    display: inline-block;
+    color: var(--white-color);
+    font-size: 4rem;
+}
+
+.agents-container{
+    background-color: var(--gray-color);
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.agent-card{
+    width: 280px;
+    height: 280px;
+    background-color: var(--white-color);
+    margin: 20px;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.agent-card img{
+    width: 85%;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.agent-card h2{
+    color: var(--gray-color);
+    font-weight: bold;
+}
