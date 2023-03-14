@@ -3,7 +3,5 @@
 
 This made with React.js 
 
-```http
-  https://valorant-agents-seven.vercel.app/
-```
 
+[Demo website](https://valorant-agents-info.vercel.app/)
