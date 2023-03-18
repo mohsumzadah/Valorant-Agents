@@ -1,7 +1,7 @@
 
 # Valorant-Agents-Info
 
-This made with React.js 
+This project made with React.js.
 
 
-[Demo website](https://valorant-agents-info.vercel.app/)
+[Demo website](https://marketing-website-zeta.vercel.app/)
